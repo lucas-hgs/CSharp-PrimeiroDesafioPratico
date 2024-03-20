@@ -49,6 +49,11 @@ class Program
                         QuartoExercicio.ContadorDeCaracteres();
                     }
                     break;
+                case "5":
+                    {
+                        QuintoExercicio.PlacaVeicular();
+                    }
+                    break;
                 default: 
                     { 
                         Console.WriteLine("\nOpção desconhecida"); 
