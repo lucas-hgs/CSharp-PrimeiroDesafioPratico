@@ -10,14 +10,14 @@ class Program
 
         while (option != "0") { 
 
-            Console.WriteLine("Escolha a opção que você deseja:");
+            Console.WriteLine("\nEscolha a opção que você deseja:");
 
-            Console.WriteLine("1: Boas-Vindas");
-            Console.WriteLine("2: Concatenar seu nome e sobrenome");
-            Console.WriteLine("3: Operações matemáticas com 2 números");
-            Console.WriteLine("4: Contador de caracteres");
-            Console.WriteLine("5: Verificador de placa de veículo");
-            Console.WriteLine("6: Data de hoje em diferentes formatos");
+            Console.WriteLine("\n1: Boas-Vindas");
+            Console.WriteLine("\n2: Concatenar seu nome e sobrenome");
+            Console.WriteLine("\n3: Operações matemáticas com 2 números");
+            Console.WriteLine("\n4: Contador de caracteres");
+            Console.WriteLine("\n5: Verificador de placa de veículo");
+            Console.WriteLine("\n6: Data de hoje em diferentes formatos\n");
 
             option = Console.ReadLine();
 
@@ -26,7 +26,7 @@ class Program
             {
                 case "0":
                     {
-                        Console.WriteLine("O programa foi encerrado! Até a próxima...");
+                        Console.WriteLine("\nO programa foi encerrado! Até a próxima...");
                     }
                     break;
                 case "1":
@@ -39,9 +39,14 @@ class Program
                         SegundoExercicio.ConcatenaNomeSobrenome();
                     }
                     break;
+                case "3":
+                    {
+                        TerceiroExercicio.CalcularDoisValores();
+                    }
+                    break;
                 default: 
                     { 
-                        Console.WriteLine("Opção desconhecida"); 
+                        Console.WriteLine("\nOpção desconhecida"); 
                     }
                     break;
             }

@@ -7,13 +7,16 @@ public class SegundoExercicio
         var nome = "";
         var sobrenome = "";
 
+        Console.WriteLine("\n########################################");
 
-        Console.WriteLine("Digite o seu nome:");
+        Console.WriteLine("\nDigite o seu nome:");
         nome = Console.ReadLine();
 
-        Console.WriteLine("Digite o seu sobrenome:");
+        Console.WriteLine("\nDigite o seu sobrenome:");
         sobrenome = Console.ReadLine();
 
-        Console.WriteLine($"Seu nome concatenado: {nome} {sobrenome}");
+        Console.WriteLine($"\nSeu nome concatenado: {nome} {sobrenome}");
+
+        Console.WriteLine("\n########################################");
     } 
 }
