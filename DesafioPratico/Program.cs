@@ -44,6 +44,11 @@ class Program
                         TerceiroExercicio.CalcularDoisValores();
                     }
                     break;
+                case "4":
+                    {
+                        QuartoExercicio.ContadorDeCaracteres();
+                    }
+                    break;
                 default: 
                     { 
                         Console.WriteLine("\nOpção desconhecida"); 
