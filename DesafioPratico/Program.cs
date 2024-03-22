@@ -17,7 +17,8 @@ class Program
             Console.WriteLine("\n3: Operações matemáticas com 2 números");
             Console.WriteLine("\n4: Contador de caracteres");
             Console.WriteLine("\n5: Verificador de placa de veículo");
-            Console.WriteLine("\n6: Data de hoje em diferentes formatos\n");
+            Console.WriteLine("\n6: Data de hoje em diferentes formatos");
+            Console.WriteLine("\n0: Para finalizar a aplicação\n");
 
             option = Console.ReadLine();
 
@@ -52,6 +53,11 @@ class Program
                 case "5":
                     {
                         QuintoExercicio.PlacaVeicular();
+                    }
+                    break;
+                case "6":
+                    {
+                        SextoDesafio.DataAgora();
                     }
                     break;
                 default: 
